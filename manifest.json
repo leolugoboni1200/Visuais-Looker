@@ -1,0 +1,25 @@
+{
+  "name": "Visualizador de HTML",
+  "description": "Renderiza código HTML bruto a partir de uma dimensão de texto.",
+  "logoUrl": "https://www.gstatic.com/analytics-ds/images/datastudio-logo.png",
+  "organization": "Meu Projeto GCP",
+  "organizationUrl": "https://cloud.google.com/",
+  "termsOfServiceUrl": "https://cloud.google.com/terms",
+  "supportUrl": "https://cloud.google.com/support",
+  "packageUrl": "https://cloud.google.com/",
+  "privacyPolicyUrl": "https://cloud.google.com/privacy",
+  "devMode": true,
+  "components": [
+    {
+      "id": "html_viewer",
+      "name": "HTML Viewer",
+      "iconUrl": "https://www.gstatic.com/analytics-ds/images/datastudio-logo.png",
+      "description": "Exibe HTML renderizado dinamicamente.",
+      "resource": {
+        "js": "gs://bucket_looker_visuals/html_viewer/html_viewer.js",
+        "config": "gs://bucket_looker_visuals/html_viewer/html_viewer.json",
+        "css": "gs://bucket_looker_visuals/html_viewer/html_viewer.css"
+      }
+    }
+  ]
+}
